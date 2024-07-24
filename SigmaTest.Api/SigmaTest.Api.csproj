@@ -10,17 +10,21 @@
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.17" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.12" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Remove="Logic\" />
-    <None Remove="Data\" />
-    <None Remove="Data\Entities\" />
+    <None Remove="Tests\" />
+    <None Remove="Tests\Unit\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Logic\" />
-    <Folder Include="Data\" />
-    <Folder Include="Data\Entities\" />
+    <Folder Include="Tests\" />
+    <Folder Include="Tests\Unit\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SigmaTest.Service\SigmaTest.Service.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
   </ItemGroup>
 </Project>

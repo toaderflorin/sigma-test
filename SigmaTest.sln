@@ -5,6 +5,10 @@ VisualStudioVersion = 25.0.1706.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SigmaTest.Api", "SigmaTest.Api\SigmaTest.Api.csproj", "{4E21D657-CA80-4C51-82DE-D07F5D1FC314}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SigmaTest.Tests", "SigmaTest.Tests\SigmaTest.Tests.csproj", "{24C1CD56-9EC5-456F-A071-C628C29DAC92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SigmaTest.Service", "SigmaTest.Service\SigmaTest.Service.csproj", "{7CFE34C9-330C-436C-A685-110DD4182B34}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{4E21D657-CA80-4C51-82DE-D07F5D1FC314}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E21D657-CA80-4C51-82DE-D07F5D1FC314}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E21D657-CA80-4C51-82DE-D07F5D1FC314}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24C1CD56-9EC5-456F-A071-C628C29DAC92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24C1CD56-9EC5-456F-A071-C628C29DAC92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24C1CD56-9EC5-456F-A071-C628C29DAC92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24C1CD56-9EC5-456F-A071-C628C29DAC92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CFE34C9-330C-436C-A685-110DD4182B34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CFE34C9-330C-436C-A685-110DD4182B34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CFE34C9-330C-436C-A685-110DD4182B34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CFE34C9-330C-436C-A685-110DD4182B34}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
